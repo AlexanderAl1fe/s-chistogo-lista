@@ -39,4 +39,70 @@ blockquote {
 
 .header {
     padding: 24px 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    
+    
+}
+
+.header__logo {
+    display: block;
+    width: 78px;
+}
+
+.header__logo-image {
+    width: 100%;
+}
+
+.header__menu-list {
+    list-style-type: none;
+    display: flex;
+    gap: 12px;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.header__menu-item_active .header__menu-link {
+    text-decoration: none;
+    
+}
+
+.header__menu-link {
+    color: white;
+    font-size: 16px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 19.2px;
+}
+
+.cover {
+    background-image: url(../images/cover.svg);
+    background-repeat: no-repeat;
+    background-size: 95% auto;
+    background-position: right center;
+    padding: 7px 24px 32px 20px;
+}
+
+.cover-title {
+    color: #FFF;
+    font-size: 72px;
+    font-family: EB Garamond;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 100%;
+
+}
+
+.accent-span {
+    display: block;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
 }
